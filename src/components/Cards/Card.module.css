@@ -1,0 +1,39 @@
+.container {
+    background-color: #800080;
+    width: 200px;
+    height: 300px;
+    color: white;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.container:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.container img {
+    margin-top: -10px;
+    margin-left: 8px;
+    width: 180px;
+    max-width: 180px;
+    max-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.details {
+    margin: 5px;
+    margin-top: -55px;
+    width: 180px;
+    height: 50px;
+
+}
+
+.details h4 {
+    margin: 2px;
+    font-size: 12px;
+}

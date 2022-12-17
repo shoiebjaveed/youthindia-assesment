@@ -1,0 +1,26 @@
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+.image {
+    width: 200px;
+    height: 300px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.details {
+    position: absolute;
+    top: 3%;
+    left: 38%;
+}
+
+.details h4 {
+    margin: 5px;
+    font-weight: lighter;
+}
